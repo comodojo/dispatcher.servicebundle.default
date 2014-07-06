@@ -15,7 +15,7 @@
                 "type": "ROUTE",
                 "target": "landing.php"
             },{
-                "service": "test",
+                "service": "about",
                 "type": "ROUTE",
                 "target": "about.php"
             }
