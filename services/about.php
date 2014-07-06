@@ -20,7 +20,7 @@ class about extends service {
 
 		$template->addMenuItem("About", DISPATCHER_BASEURL."about/", "right");
 
-		$template->setContent("<h1>Content Here</h1>")
+		$template->setContent("<h1>About Content Here</h1>");
 
 		return $template->serialize();
 
