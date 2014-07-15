@@ -1,11 +1,23 @@
 {
     "name": "comodojo/dispatcher.servicebundle.default",
-    "description": "Default service bundle",
+    "description": "Default service bundle for comodojo/dispatcher.framework",
+    "license": "GPL-3.0+",
     "type": "dispatcher-service-bundle",
+    "keywords": [
+        "comodojo",
+        "dispatcher",
+        "demo",
+        "test",
+        "bundle"
+    ],
+    "homepage": "http://dispatcher.comodojo.org",
+     "support": {
+        "issues": "https://github.com/comodojo/dispatcher.servicebundle.default/issues"
+    },
     "authors": [
         {
-            "name": "comodojo",
-            "email": "devel@comodojo.org"
+            "name": "Marco Giovinazzi",
+            "email": "info@comodojo.org"
         }
     ],
     "extra": {
