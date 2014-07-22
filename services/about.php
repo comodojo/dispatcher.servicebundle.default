@@ -1,31 +1,29 @@
-<?php namespace comodojo\Dispatcher\Service;
+<?php namespace Comodojo\Dispatcher\Service;
 
-use \comodojo\Dispatcher\Template\TemplateBootstrap;
+use \Comodojo\Dispatcher\Template\TemplateBootstrap;
 
 class about extends service {
-	
-	public function setup() {
+    
+    public function setup() {
 
-		$this->setContentType("text/html");
+        $this->setContentType("text/html");
 
-	}
+    }
 
-	public function get() {
+    public function get() {
 
-		$template = new TemplateBootstrap("navbar");
+        $template = new TemplateBootstrap("navbar");
 
-		$template->setTitle("Comodojo dispatcher")->setBrand("comodojo/dispatcher");
+        $template->setTitle("Comodojo dispatcher")->setBrand("comodojo/dispatcher");
 
-		$template->addMenuItem("Test", DISPATCHER_BASEURL."test/");
+        $template->addMenuItem("Test", DISPATCHER_BASEURL."test/");
 
-		$template->addMenuItem("About", DISPATCHER_BASEURL."about/", "right");
+        $template->addMenuItem("About", DISPATCHER_BASEURL."about/", "right");
 
-		$template->setContent("<h1>About Content Here</h1>");
+        $template->setContent("<h1>About Content Here</h1>");
 
-		return $template->serialize();
+        return $template->serialize();
 
-	}
+    }
 
 }
-
-?>
