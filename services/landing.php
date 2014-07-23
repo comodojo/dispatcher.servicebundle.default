@@ -2,7 +2,7 @@
 
 use \Comodojo\Dispatcher\Template\TemplateBootstrap;
 
-class landing extends service {
+class landing extends Service {
 
     public function setup() {
 
