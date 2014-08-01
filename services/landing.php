@@ -26,9 +26,9 @@ class landing extends Service {
 
         $template->setTitle("Comodojo dispatcher")->setBrand("comodojo/dispatcher");
 
-        $template->addMenuItem("Test", DISPATCHER_BASEURL."test/");
-
-        $template->addMenuItem("About", DISPATCHER_BASEURL."about/", "right");
+        $template->addMenu("right")
+                 ->addMenuItem("Test", DISPATCHER_BASEURL."test/", "right")
+                 ->addMenuItem("About", DISPATCHER_BASEURL."about/", "right");
 
         $template->setContent($content);
 
