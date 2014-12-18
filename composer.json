@@ -34,7 +34,7 @@
         ]
     },
     "require": {
-        "comodojo/dispatcher.template.bootstrap": "1.0.*",
-        "comodojo/dispatcher.servicebundle.test": "1.0.*"
+        "comodojo/dispatcher.template.bootstrap": "1.1.*@dev",
+        "comodojo/dispatcher.servicebundle.test": "1.1.*@dev"
     }
 }
